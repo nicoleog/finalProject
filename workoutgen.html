@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Fitness Pro</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin+Sketch">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <style type="text/css">
+        .allSlides{display: grid; grid-template-columns:1fr 1fr 1fr; width: 100%; height: 100%;}
+        .slides-wrapper{position: relative; }
+        .slides-wrapper img{width: 100%;}
+        .tree h2{background-image: url(tree.jpeg); padding: 10px; margin-bottom: 20px;font-size: 30px; color: white;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
+        
+    </style>
+    <script language="javascript">
+    function myFunction() {
+      var x = document.getElementById("links");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
+</head>
+<body>
+
+    
+        
+        
+        <header>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            <div class="wrapper">
+                <div class="topBar">
+              <a href="index.html"><img src="FP-logo.png"></a>
+              <div class="logo"><a href="index.html">Fitness Pro</a></div>
+              </div>
+              <div id="links">
+                  <a href="login.html">Login</a>
+                  <a href="workoutlog.html">Workout Log</a>
+                  <a href="workoutprogress.html">Workout Progress</a>
+                  <a href="workoutgen.html">Workout Generator</a>
+                  <a href="findgyms.html">Find Gyms</a>
+              </div>
+              <a href="javascript:void(0);" class="thing" onclick="myFunction()" >
+                <i class="fa fa-bars"></i>
+              </a>
+            </div>
+        </header>
+
+       <div class="content">
+          <h1>workout generator</h1>
+       </div> 
+        
+        <footer class= "main-footer">
+             <p>Copyright &copy; 2021 Fitness Pro</p>
+        </footer>
+       </div>
+
+
+   
+</body>
+</html>

@@ -1,0 +1,135 @@
+
+.thing i{
+    font-size:30px;
+}
+
+.header, .wrapper {
+    z-index: 100;
+}
+.wrapper {
+  overflow: hidden;
+  position: relative;
+  background-color: rgba(96, 114, 138, 1);
+}
+
+.wrapper #links {
+  display: none;
+}
+
+.wrapper a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.wrapper a.thing {
+  background-color: rgba(30, 58, 97, .7);
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+
+
+
+.topBar {
+ 
+ color: white;
+ height: 130px;
+ 
+}
+.topBar img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding: 2px;
+}
+.logo a{
+    text-decoration: none;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 5px;
+    padding-left: 30px;
+    text-align: center;
+
+}
+h1 {
+    color: black;
+    text-shadow: 0 0 1px #133A1B;
+    font-size: 50px;
+}
+
+h3 {
+    color: black;
+    text-shadow: 0 0 1px #133A1B;
+    font-size: 30px;
+}
+.summerCollection p, a {
+    color: black;
+    text-shadow: 0 0 1px #133A1B;
+    font-size: 30px;
+        text-decoration: none;
+    padding: 10px;
+    
+}
+
+.summerCollection {
+    background-color: rgba(30, 58, 97, .7);
+    width:100%;
+    background-size: cover;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+}
+
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 160px;
+    background: white;
+    
+}
+
+
+.main-footer{
+    background-color: rgba(96, 114, 138, 1);
+    color: black;
+    text-align:center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.main-footer p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 700px){
+    .logo a{
+        font-size: 22px;
+
+    }
+
+}
+@media screen and (max-width: 975px) {
+
+}
+
+
+
