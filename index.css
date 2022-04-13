@@ -36,7 +36,7 @@
 
 
 .topBar {
- 
+ background-color: rgba(30, 70, 97, .7);
  color: white;
  height: 130px;
  
@@ -106,7 +106,7 @@ body{
 
 
 .main-footer{
-    background-color: rgba(96, 114, 138, 1);
+     background-color: rgba(30, 70, 97, .9);
     color: black;
     text-align:center;
     padding: 10px;
